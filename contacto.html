@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>TecnoLR</title>
+   
+</head>
+<body>
+
+    
+    <header id="header">
+        <img class="menu" src="img/menuiconwhite.png" alt="menu" id="menu">
+        <div class="contenedor_logo">
+            <img  class="logo"  src="img/tecnolr.png" alt="logo">
+        </div>
+
+        <div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"> Inicio </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li><a href="galeria.html">Galería</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div id="contenido">
+        <h2>Contactanos!</h2>
+        <form action="" class="formulario_contacto" id="formulario_contacto">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com">
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="telefono">
+            <br>
+            <label for="tipoconsulta">Tipo consulta</label>
+            <select name="tipoconsulta" id="tipoconsulta">
+                <option value="">seleccionar</option>
+                <option value="consulta">consulta</option>
+                <option value="reclamo">reclamo</option>
+                <option value="sugerencia">sugerencia</option>
+                <option value="felicitaciones">felicitaciones</option>
+            </select>
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <input type="checkbox" name="avisos" id="avisos" checked>
+            <label for="avisos">¿Desea recibir promociones/avisos a su email?</label>
+            <br>
+           
+
+            <button type="button" id="btnEnviar" class="button">Enviar</button>
+            
+
+        </form>
+
+
+
+    </div>
+
+
+    <footer>
+        <div class="marcas">
+            <img src="img/footer/apple.png" alt="apple">
+            <img src="img/footer/lenovo.png" alt="lenovo">
+            <img src="img/footer/microsoft.png" alt="microsoft">
+            <img src="img/footer/samsung.png" alt="samsung">
+            <img src="img/footer/xiaomi.png" alt="xiaomi">
+        </div>
+        <div class="logo_footer">
+            <img src="img/tecnolr.png" alt="logo">
+        </div>
+    </footer>
+
+</body>
+</html>
